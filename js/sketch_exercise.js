@@ -1,6 +1,7 @@
 let img;
 function preload() {
-  img = loadImage('../imgs/imaggge.jpg');
+  diskler = loadImage('../imgs/дискошар.png');
+  disk = loadImage('../imgs/диск.png');
 }
 
 function setup() {
@@ -18,9 +19,9 @@ function draw() {
 
     stroke(0);
     if (mouseIsPressed) {
-        image(img, mouseX, mouseY, 80, 80);
+        image(diskler, mouseX, mouseY, 100, 100);
     } else {
-        image(img, mouseX, mouseY, 80, 80);
+        image(disk, mouseX, mouseY, 100, 100);
     }
 }
 

@@ -4,8 +4,8 @@ let timer = new easytimer.Timer();
 // куда будем выводить счетчик времени
 let timerTemplate = document.getElementById('timer');
 
-// Задаем время отдыха в секундах 
-const TIME = 90;
+// Задаем время отдыха в секундах
+const TIME = 1;
 // Задаем шаг, на который должен увеличиваться прогресс
 // за одну секунду
 // Находим 1% от времени, затем делим весь прогресс на найденные доли
@@ -34,7 +34,7 @@ timerTemplate.innerHTML = timer.getTimeValues().toString(['minutes', 'seconds'])
 // Добавляем обработчик событий таймера,
 // чтобы на каждую пройденную секунду
 // таймер обновлял в HTMLе кол-во времени,
-// а круг анимировался 
+// а круг анимировался
 timer.addEventListener('secondsUpdated', e => {
     timerTemplate.innerHTML = timer.getTimeValues().toString(['minutes', 'seconds']);
     circle.animate(progress);
@@ -44,7 +44,7 @@ timer.addEventListener('secondsUpdated', e => {
 // Переводим человека на страницу упражнения,
 // когда таймер закончится
 timer.addEventListener('targetAchieved', e => {
-    // Но сначала ждем одну секунду, 
+    // Но сначала ждем одну секунду,
     // чтобы закончилась анимация
     setTimeout(goNextPage, 1000)
 });
@@ -66,7 +66,7 @@ function goNextPage() {
     let url = window.location.href.split('/');
     // Адрес сайта, от которого отрезали последний кусочек
     let baseUrl = url.slice(0, -1).join('/');
-    // Объявляем переменную, чтобы воспользоваться ей позже 
+    // Объявляем переменную, чтобы воспользоваться ей позже
     let nextPage;
 
     // Если выполнили все упражнения, то
