@@ -24,6 +24,7 @@
 body {
     font-family: Roboto, sans-serif;
     overflow: hidden;
+        background-color: #FF7B7B;
 }
 
 body.is-flexible {
@@ -136,7 +137,7 @@ li {
 
 .btn:hover {
     color: red;
-    border: 1px solid red; 
+    border: 1px solid red;
 }
 
 .info {

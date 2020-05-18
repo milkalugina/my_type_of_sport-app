@@ -13,7 +13,6 @@ function setup() {
 }
 
 function draw() {
-    fill(255, 15);
     noStroke();
     rect(0, 0, windowWidth, windowHeight);
 
