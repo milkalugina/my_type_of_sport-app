@@ -1,7 +1,3 @@
-let stars;
-
-let go;
-
 function preload() {
   stars = loadImage('../imgs/звезды.png');
   go = loadImage('../imgs/го.png');

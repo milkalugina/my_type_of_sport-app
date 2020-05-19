@@ -1,4 +1,3 @@
-let img;
 function preload() {
   diskler = loadImage('../imgs/дискошар.png');
   disk = loadImage('../imgs/диск.png');
