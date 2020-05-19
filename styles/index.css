@@ -23,7 +23,7 @@
 
 body {
     font-family: Roboto, sans-serif;
-    overflow: hidden;
+    overflow-y: auto;
     background-color: #FF7B7B;
 }
 
