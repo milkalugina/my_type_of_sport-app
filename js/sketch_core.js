@@ -1,4 +1,3 @@
-let img;
 function preload() {
   books = loadImage('../imgs/книги.png');
   cake = loadImage('../imgs/тортик.png');

@@ -1,6 +1,6 @@
 function preload() {
-  stars = loadImage('../imgs/звезды.png');
-  go = loadImage('../imgs/го.png');
+  stars = loadImage('../imgs/звездочки.png');
+  go = loadImage('../imgs/гоу.png');
 }
 
 function setup() {
