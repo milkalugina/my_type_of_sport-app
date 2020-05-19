@@ -9,7 +9,7 @@ function setup() {
     let myCanvas = createCanvas(windowWidth, windowHeight);
     // прикрепляем канвас в заранее созданный элемент
     myCanvas.parent("canvas");
-    background(#FF7B7B);
+    background('#FF7B7B');
 }
 
 function draw() {
