@@ -9,7 +9,7 @@ function setup() {
     let myCanvas = createCanvas(windowWidth, windowHeight);
     // прикрепляем канвас в заранее созданный элемент
     myCanvas.parent("canvas");
-    background(255);
+
 }
 
 function draw() {
@@ -22,7 +22,7 @@ function draw() {
     } else {
         image(disk, mouseX, mouseY, 100, 100);
     }
-    // image(diskler, mouseX, mouseY, 100, 100);
+    image(diskler, mouseX, mouseY, 100, 100);
     // image(disk, mouseX, mouseY, 100, 100);
 }
 
