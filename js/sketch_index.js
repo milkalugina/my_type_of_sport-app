@@ -1,6 +1,6 @@
 function preload() {
-  books = loadImage('../imgs/звездочки.png');
-  cake = loadImage('../imgs/гоу.png');
+  stars = loadImage('../imgs/звездочки.png');
+  go = loadImage('../imgs/гоу.png');
 }
 
 function setup() {
@@ -17,9 +17,9 @@ function draw() {
 
     stroke(0);
     if (mouseIsPressed) {
-        image(books, mouseX, mouseY, 150, 150);
+        image(go, mouseX, mouseY, 150, 150);
     } else {
-        image(cake, mouseX, mouseY, 250, 250);
+        image(stars, mouseX, mouseY, 250, 250);
     }
 }
 

@@ -19,7 +19,7 @@ function draw() {
     if (mouseIsPressed) {
         image(go, mouseX, mouseY, 150, 150);
     } else {
-        image(stars, mouseX, mouseY, 250, 250);
+        image(stars, mouseX, mouseY, 350, 450);
     }
 }
 
