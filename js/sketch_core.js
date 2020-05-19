@@ -20,7 +20,7 @@ function draw() {
     if (mouseIsPressed) {
         image(books, mouseX, mouseY, 150, 150);
     } else {
-        image(cake, mouseX, mouseY, 200, 200);
+        image(cake, mouseX, mouseY, 250, 250);
     }
 }
 
