@@ -24,7 +24,7 @@
 body {
     font-family: Roboto, sans-serif;
     overflow: hidden;
-        background-color: #FF7B7B;
+    background-color: #FF7B7B;
 }
 
 body.is-flexible {
@@ -59,6 +59,10 @@ h1 {
 .is-right {
     position: absolute;
     right: 32px;
+}
+
+h1.is-right {
+    visibility: visible;
 }
 
 .is-bottom {
@@ -166,4 +170,97 @@ li {
     top: 0;
     left: 0;
     z-index: -1;
+}
+
+
+@media screen and (max-width: 320px) {
+  h1 {
+      font-size: 35px;
+      font-weight: 900;
+      text-align: center;
+      line-height: 100%;
+      letter-spacing: 5px;
+      border: none;
+      padding-bottom: 20px;
+  }
+
+  h2 {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 110%;
+      text-align: center;
+      padding-bottom: 20px;
+  }
+
+  .btn {
+      font-size: 22px;
+      line-height: 26px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      left: 80px;
+  }
+
+  .info {
+      padding: 24px 20px 43px 8px;
+  }
+
+  h3 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 140%;
+      padding-bottom: 8px;
+  }
+
+  p {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 140%;
+      padding-bottom: 8px;
+  }
+
+  .btn.is-right {
+      right: 95px;
+  }
+
+  h2 span {
+      display: inline-block;
+  }
+
+  h2 span:last-child {
+      padding-left: 0px;
+  }
+
+  .content h1 {
+      text-align: inherit;
+      text-align: center;
+  }
+
+  h1.is-right {
+      visibility: hidden;
+  }
+
+  .is-bottom {
+      left: 80px;
+    }
+
+    .info {
+      padding: 20px 20px 20px 8px;
+    }
+
+    li {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 140%;
+      padding-bottom: 8px;
+    }
+
+    .content {
+      overflow-y: scroll;
+    }
+
+    .content_scroll {
+      overflow: hidden;
+    }
+
 }

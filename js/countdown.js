@@ -5,7 +5,7 @@ let timer = new easytimer.Timer();
 let timerTemplate = document.getElementById('timer');
 
 // Задаем время отдыха в секундах
-const TIME = 1;
+const TIME = 10;
 // Задаем шаг, на который должен увеличиваться прогресс
 // за одну секунду
 // Находим 1% от времени, затем делим весь прогресс на найденные доли
@@ -15,7 +15,7 @@ let progress = STEP;
 
 // Инициализируем библиотеку с анимацией круга
 let circle = new ProgressBar.Circle('#bar', {
-    color: 'rgb(255 0 0)',
+    color: 'rgb(255 255 255)',
     trailColor: 'rgb(255 255 255 0)',
     strokeWidth: 50,
     duration: 1000,
