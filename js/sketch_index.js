@@ -1,7 +1,8 @@
-let img;
+let stars;
+let go;
 function preload() {
   stars = loadImage('../imgs/stars.png');
-  goo = loadImage('../imgs/goo.png');
+  go = loadImage('../imgs/go.png');
 }
 
 function setup() {
