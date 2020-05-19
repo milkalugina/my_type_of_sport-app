@@ -1,7 +1,7 @@
 let img;
 function preload() {
-  go = loadImage('../imgs/go.png');
   stars = loadImage('../imgs/stars.png');
+  go = loadImage('../imgs/go.png');
 }
 
 function setup() {
