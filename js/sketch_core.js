@@ -18,9 +18,9 @@ function draw() {
 
     stroke(0);
     if (mouseIsPressed) {
-        image(books, mouseX, mouseY, 100, 100);
+        image(books, mouseX, mouseY, 150, 150);
     } else {
-        image(cake, mouseX, mouseY, 100, 100);
+        image(cake, mouseX, mouseY, 200, 200);
     }
 }
 
