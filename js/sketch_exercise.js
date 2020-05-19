@@ -14,7 +14,7 @@ function setup() {
 
 function draw() {
     noStroke();
-    rect(0, 0, windowWidth, windowHeight);
+    rect('#FF7B7B', 0, 0, windowWidth, windowHeight);
 
     stroke(0);
     if (mouseIsPressed) {
@@ -22,8 +22,6 @@ function draw() {
     } else {
         image(disk, mouseX, mouseY, 100, 100);
     }
-    image(diskler, mouseX, mouseY, 100, 100);
-    // image(disk, mouseX, mouseY, 100, 100);
 }
 
 // Изменяем размер канваса, если изменился размер окна
