@@ -86,7 +86,7 @@ h2 a {
 }
 
 h2 a:hover {
-    color: red;
+    color: rgba(102, 155, 165, 1);
 }
 
 h3 {
@@ -121,7 +121,6 @@ li {
     line-height: 1;
     letter-spacing: 1px;
     text-transform: uppercase;
-
     padding: 16px 24px;
     color: #000000;
     border: 1px solid black;
@@ -140,8 +139,8 @@ li {
 }
 
 .btn:hover {
-    color: red;
-    border: 1px solid red;
+    color: rgba(102, 155, 165, 1);
+    border: 1px solid rgba(102, 155, 165, 1);
 }
 
 .info {
@@ -150,7 +149,7 @@ li {
     display: inline-flex;
     flex-flow: column;
     background: white;
-    box-shadow: 20px 20px rgba(102, 155, 165, 1);
+    box-shadow: 20px 16px black;
     max-width: 960px;
     overflow: scroll;
 }
