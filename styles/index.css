@@ -16,8 +16,8 @@
     margin: auto;
     font-size: 30vw;
     font-weight: 900;
-    -webkit-text-stroke: 1.5px red;
-    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1.5px white;
+    -webkit-text-fill-color: #FF7B7B;
     z-index: 10;
 }
 
