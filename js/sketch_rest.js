@@ -1,6 +1,8 @@
 let dotX = 0
 let dotY = 0
 
+let col = {}
+
 function preload() {
   img = loadImage('../imgs/цветок.png');
 }
